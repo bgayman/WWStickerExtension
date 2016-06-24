@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE223991D1CD1F600D10CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE223981D1CD1F600D10CF2 /* Assets.xcassets */; };
+		CDE223A01D1CD1F600D10CF2 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CDE2239F1D1CD1F600D10CF2 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDE223A51D1CD1F600D10CF2 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE223A41D1CD1F600D10CF2 /* Messages.framework */; };
+		CDE223A81D1CD1F600D10CF2 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE223A71D1CD1F600D10CF2 /* MessagesViewController.swift */; };
+		CDE223AB1D1CD1F600D10CF2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE223A91D1CD1F600D10CF2 /* MainInterface.storyboard */; };
+		CDE223AD1D1CD1F600D10CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE223AC1D1CD1F600D10CF2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE223A11D1CD1F600D10CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE2238F1D1CD1F600D10CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE2239E1D1CD1F600D10CF2;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDE223B41D1CD1F600D10CF2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CDE223A01D1CD1F600D10CF2 /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDE223951D1CD1F600D10CF2 /* Tom of Finland Stickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tom of Finland Stickies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE223981D1CD1F600D10CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE2239A1D1CD1F600D10CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE2239F1D1CD1F600D10CF2 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE223A41D1CD1F600D10CF2 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		CDE223A71D1CD1F600D10CF2 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		CDE223AA1D1CD1F600D10CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CDE223AC1D1CD1F600D10CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE223AE1D1CD1F600D10CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE2239C1D1CD1F600D10CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE223A51D1CD1F600D10CF2 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE2238E1D1CD1F600D10CF2 = {
+			isa = PBXGroup;
+			children = (
+				CDE223971D1CD1F600D10CF2 /* Tom of Finland Stickies */,
+				CDE223A61D1CD1F600D10CF2 /* MessagesExtension */,
+				CDE223A31D1CD1F600D10CF2 /* Frameworks */,
+				CDE223961D1CD1F600D10CF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE223961D1CD1F600D10CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE223951D1CD1F600D10CF2 /* Tom of Finland Stickies.app */,
+				CDE2239F1D1CD1F600D10CF2 /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE223971D1CD1F600D10CF2 /* Tom of Finland Stickies */ = {
+			isa = PBXGroup;
+			children = (
+				CDE223981D1CD1F600D10CF2 /* Assets.xcassets */,
+				CDE2239A1D1CD1F600D10CF2 /* Info.plist */,
+			);
+			path = "Tom of Finland Stickies";
+			sourceTree = "<group>";
+		};
+		CDE223A31D1CD1F600D10CF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE223A41D1CD1F600D10CF2 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE223A61D1CD1F600D10CF2 /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CDE223A71D1CD1F600D10CF2 /* MessagesViewController.swift */,
+				CDE223A91D1CD1F600D10CF2 /* MainInterface.storyboard */,
+				CDE223AC1D1CD1F600D10CF2 /* Assets.xcassets */,
+				CDE223AE1D1CD1F600D10CF2 /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE223941D1CD1F600D10CF2 /* Tom of Finland Stickies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE223B51D1CD1F600D10CF2 /* Build configuration list for PBXNativeTarget "Tom of Finland Stickies" */;
+			buildPhases = (
+				CDE223931D1CD1F600D10CF2 /* Resources */,
+				CDE223B41D1CD1F600D10CF2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE223A21D1CD1F600D10CF2 /* PBXTargetDependency */,
+			);
+			name = "Tom of Finland Stickies";
+			productName = "Tom of Finland Stickies";
+			productReference = CDE223951D1CD1F600D10CF2 /* Tom of Finland Stickies.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		CDE2239E1D1CD1F600D10CF2 /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE223B11D1CD1F600D10CF2 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				CDE2239B1D1CD1F600D10CF2 /* Sources */,
+				CDE2239C1D1CD1F600D10CF2 /* Frameworks */,
+				CDE2239D1D1CD1F600D10CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = CDE2239F1D1CD1F600D10CF2 /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE2238F1D1CD1F600D10CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Brad G.";
+				TargetAttributes = {
+					CDE223941D1CD1F600D10CF2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8DDUQH2RUD;
+						DevelopmentTeamName = "Brad Gayman";
+						ProvisioningStyle = Automatic;
+					};
+					CDE2239E1D1CD1F600D10CF2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8DDUQH2RUD;
+						DevelopmentTeamName = "Brad Gayman";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDE223921D1CD1F600D10CF2 /* Build configuration list for PBXProject "Tom of Finland Stickies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE2238E1D1CD1F600D10CF2;
+			productRefGroup = CDE223961D1CD1F600D10CF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE223941D1CD1F600D10CF2 /* Tom of Finland Stickies */,
+				CDE2239E1D1CD1F600D10CF2 /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE223931D1CD1F600D10CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE223991D1CD1F600D10CF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE2239D1D1CD1F600D10CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE223AD1D1CD1F600D10CF2 /* Assets.xcassets in Resources */,
+				CDE223AB1D1CD1F600D10CF2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE2239B1D1CD1F600D10CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE223A81D1CD1F600D10CF2 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE223A21D1CD1F600D10CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE2239E1D1CD1F600D10CF2 /* MessagesExtension */;
+			targetProxy = CDE223A11D1CD1F600D10CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDE223A91D1CD1F600D10CF2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE223AA1D1CD1F600D10CF2 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE223AF1D1CD1F600D10CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDE223B01D1CD1F600D10CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE223B21D1CD1F600D10CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bradgayman.Tom-of-Finland-Stickies.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDE223B31D1CD1F600D10CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bradgayman.Tom-of-Finland-Stickies.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CDE223B61D1CD1F600D10CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tom of Finland Stickies/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "bradgayman.Tom-of-Finland-Stickies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE223B71D1CD1F600D10CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tom of Finland Stickies/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "bradgayman.Tom-of-Finland-Stickies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE223921D1CD1F600D10CF2 /* Build configuration list for PBXProject "Tom of Finland Stickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE223AF1D1CD1F600D10CF2 /* Debug */,
+				CDE223B01D1CD1F600D10CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE223B11D1CD1F600D10CF2 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE223B21D1CD1F600D10CF2 /* Debug */,
+				CDE223B31D1CD1F600D10CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDE223B51D1CD1F600D10CF2 /* Build configuration list for PBXNativeTarget "Tom of Finland Stickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE223B61D1CD1F600D10CF2 /* Debug */,
+				CDE223B71D1CD1F600D10CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE2238F1D1CD1F600D10CF2 /* Project object */;
+}
